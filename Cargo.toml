@@ -1,6 +1,6 @@
 [package]
 name = "future-parking_lot"
-version = "0.3.3"
+version = "0.3.4"
 authors = ["Marco Napetti <marco.napetti@gmail.com>"]
 edition = "2018"
 description = "An \"as simple as possible\" Future implementation for parking_lot"
@@ -17,6 +17,6 @@ crossbeam-queue = "0.2"
 
 [dev-dependencies]
 lazy_static = "1.4"
-tokio = "=0.2.0-alpha.6"
+tokio = "0.2"
 log = "0.4"
 env_logger = "0.7"
